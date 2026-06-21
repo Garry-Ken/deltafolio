@@ -51,7 +51,7 @@ function yahooProxyPlugin(): Plugin {
 }
 
 export default defineConfig({
-  base: './',
+  base: process.env.CI ? '/deltafolio/' : './',
   plugins: [react(), yahooProxyPlugin()],
   server: { port: 5183 },
   build: { outDir: 'dist' },
