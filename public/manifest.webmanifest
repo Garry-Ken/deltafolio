@@ -1,0 +1,9 @@
+{
+  "name": "DeltaFolio",
+  "short_name": "DeltaFolio",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fbfbfd",
+  "theme_color": "#0a84ff",
+  "icons": []
+}
